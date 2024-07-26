@@ -1,0 +1,9 @@
+Package: com.greyd00r.mercurynotifier
+Name: Mercury Notifier
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Get notifications when updates are ready.
+Maintainer: Grayd00r
+Author: Grayd00r
+Section: Tweaks
+Version: 0.0.1

@@ -1,0 +1,7 @@
+#!/bin/bash
+#Set permissions for the launch daemon.
+chown root:wheel /System/Library/LaunchDaemons/com.greyd00r.mercury.plist
+chmod 644 /System/Library/LaunchDaemons/com.greyd00r.mercury.plist
+
+#Load the daemon up to check for updates daily. This only runs over wifi so don't worry there...
+launchctl load -w /System/Library/LaunchDaemons/com.greyd00r.mercury.plist
